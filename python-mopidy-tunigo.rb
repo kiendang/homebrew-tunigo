@@ -7,7 +7,7 @@ class PythonMopidyTunigo < Formula
 
   depends_on :python => :recommended
   depends_on :python3 => :optional
-  depends_on "mopidy/mopidy/modipy-spotify"
+  depends_on "mopidy/mopidy/mopidy-spotify"
   depends_on "kiendang/tunigo/python-tunigo"
 
   def install
