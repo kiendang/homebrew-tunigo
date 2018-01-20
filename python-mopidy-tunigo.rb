@@ -5,8 +5,8 @@ class PythonMopidyTunigo < Formula
   sha256 "ed14484efc80536eb40d909b7d1cc789fd1f9565045c8408b387b92df4789737"
   head "https://github.com/trygveaa/mopidy-spotify-tunigo"
 
-  depends_on :python => :recommended
-  depends_on :python3 => :optional
+  depends_on "python" => :recommended
+  depends_on "python3" => :optional
   depends_on "mopidy/mopidy/mopidy-spotify"
   depends_on "kiendang/tunigo/python-tunigo"
 

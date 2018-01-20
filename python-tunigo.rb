@@ -5,8 +5,8 @@ class PythonTunigo < Formula
   sha256 "e2c90ee160fb59d48c553f8189a652d226229b64c091d235f675918dcc21b4a1"
   head "https://github.com/trygveaa/python-tunigo"
 
-  depends_on :python => :recommended
-  depends_on :python3 => :optional
+  depends_on "python" => :recommended
+  depends_on "python3" => :optional
   depends_on "mopidy/mopidy/python-requests"
 
   def install
