@@ -1,5 +1,5 @@
 class PythonMopidyTunigo < Formula
-  desc "Mopidy extension for providing the browse feature of Spotify"
+  desc "Mopidy extension for providing Spotify browse feature"
   homepage "https://github.com/trygveaa/mopidy-spotify-tunigo"
   url "https://files.pythonhosted.org/packages/7f/fd/d4259db55060293898b74e7ab51e83f1fd5baf26768909bf8d5c94f4b8f3/Mopidy-Spotify-Tunigo-1.0.0.tar.gz"
   sha256 "ed14484efc80536eb40d909b7d1cc789fd1f9565045c8408b387b92df4789737"
